@@ -1,0 +1,364 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Fredoka;
+	background-color: rgba(190, 190, 190, 0.658);
+}
+.header{
+	background-color: rgb(113, 113, 199);
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+.header img{
+	width: 150px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+
+.header input{
+font-size: 18px;
+height: 30px;
+width: 90px;
+padding-left: 10px;
+margin-left: 10px;
+border: solid whitesmoke;
+border-radius: 20px;
+
+}
+.header input:hover{
+	background-color: rgb(113, 113, 199);
+	color: whitesmoke;
+	transition: background-color 0.5s;
+	
+	}
+
+img{
+	width: 300px;
+}
+
+span{
+	color: rgb(113, 113, 199);
+}
+.Navigation{
+	font-size: 20px;
+	position: absolute;
+	right: 50px;
+}
+.Navigation ul{
+	display: flex;
+	list-style: none;
+	
+}
+.Navigation li:hover{
+	color: red;
+	transition: color 0.5s;
+}
+
+.Navigation li{
+	padding-top: 7px;
+	padding-right: 10px;
+	color: whitesmoke;
+	cursor: pointer;
+}
+.main{
+	position: absolute;
+	top: 250px;
+	left: 25px;
+}
+
+@keyframes example{
+	from {top: -80px};
+	to {top: -150px;};
+}
+
+.main img{
+	position: absolute;
+	left: 630px;
+	top: -150px;
+	width: 100%;
+	transition: width 0.5s;
+	animation-name: example;
+  	animation-duration: 20s;
+}
+.main img:hover{
+	width: 110%;
+	transition: width 0.5s;
+}
+.main h1{
+	padding-bottom: 0px;
+}
+.main p{
+	margin-top: 0px;
+	font-size: 20px;
+}
+
+.main button{
+	padding: 10px;
+	width: 305px;
+	background-color: rgb(113, 113, 199);
+	color: white;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Fredoka;
+	transition: background-color 0.5s;
+	animation-name: button;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes button {
+	0%   {width: 250px}
+	25%  {width: 260px}
+	50%  {width: 290px}
+	100% {width: 305px}
+  }
+
+
+.main button:hover{
+	background-color: white;
+	color: rgb(113, 113, 199);
+	border-color: rgb(113, 113, 199);
+	border: solid 2px;
+}
+
+.body2 img{
+	position: absolute;
+	top: 820px;
+	left: 25px;
+	width: 750px;
+	transition: width 0.5s;
+}
+
+.body2 img:hover{
+	width: 800px;
+	transition: width 0.5s;
+}
+.body2 h1{
+	position: absolute;
+	top: 700px;
+	left: 320px;
+	font-size: 50px;
+}
+.body2 .userslist{
+	position: absolute;
+	top: 860px;
+	left: 770px;
+	font-size: 20px;
+	background-color: whitesmoke;
+	border-style: dashed;
+	border-width: 4px;
+	border-color: rgb(113, 113, 199);
+	padding: 12px;
+}
+
+.body3{
+	position: absolute;
+	top: 1400px;
+}
+.body3 h1{
+	position: absolute;
+	top: -10px;
+	padding-left: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 55px;
+}
+.body3 p{
+	font-size: 18px;
+	
+	
+}
+
+.allcustomers{
+	display: flex;
+	margin-top: 150px;
+	
+}
+
+.overcustomers{
+	background-image: url(image/png25.png);
+	background-size: contain;
+}
+
+.customers{
+	margin: 10px;
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 20px;
+	border-style: dashed;
+	border-width: 4px;
+	border-color: rgb(113, 113, 199);
+	
+}
+
+
+.body3 img{
+	width: 40px;
+	transition: width 0.5s;
+}
+.body3 img:hover{
+	width: 50px;
+	transition: width 0.5s;
+}
+
+.downcustomers{
+	display: flex;
+}
+
+.imgdisplay{
+	background-color: whitesmoke;
+	margin: 0px 50px;
+	position: relative;
+}
+
+.imgdisplay img{
+	width: 500px;
+	padding-left: 630px;
+	margin-top: 40px;
+	transition: width 0.5s;
+	
+}
+.imgdisplay img:hover{
+	width: 550px;
+	transition: width 0.5s;
+	
+}
+
+@keyframes form{
+	from {width: 300px};
+	to {width: 500px};
+}
+
+.imgdisplay form{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 500px;
+	background-color: rgba(190, 190, 190, 0.658);
+	padding: 20px;
+	height: 87%;
+	transition: width 0.5s;
+	animation-name: form;
+  	animation-duration: 10s;
+}
+
+.imgdisplay form input{
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	padding-left: 10px;
+	font-family: fredoka;
+}
+.imgdisplay form button{
+	width: 410px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	background-color: rgb(113, 113, 199);
+	color: whitesmoke;
+	font-family: fredoka;
+	cursor: pointer;
+	transition: width 0.5s;
+	transition: height 0.5s;
+	
+}
+
+.imgdisplay form button:hover{
+	width: 430px;
+	height: 55px;
+	transition: width 0.8s;
+	transition: height 0.5s;
+}
+
+
+.imgdisplay  h3{
+	font-size: 30px;
+}
+
+.minisection2{
+	position: absolute;
+	top: 2710px;
+	right: 340px;	
+}
+
+
+.minisection1{
+	position: absolute;
+	top: 2710px;
+	right: 10px;
+}
+
+
+.sectiontext h1{
+	position: absolute;
+	top: 2600px;
+	left: 240px;
+	font-size: 50px;
+}
+.sectiontext img{
+	position: absolute;
+	top: 2700px;
+	left: 70px;
+	width: 600px;
+	transition: width 0.5s;
+	
+}
+.sectiontext img:hover{
+	width: 550px;
+	transition: width 0.5s;
+}
+
+
+.innersect{
+	height: 100px;
+	display: flex;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.innersect img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	object-fit: cover;
+	margin-top: 15px;
+	margin-right: 8px;
+}
+
+.minisection{
+	padding-right: 10px;
+	border: 1px solid rgb(113, 113, 199);
+	margin: 10px;
+	padding-bottom: 15px;
+}
+
+.testsection{
+	position: absolute;
+	top: 350px;
+	left: 5px;
+}
+
+.minisection img{
+	padding-left: 4px;
+	padding-top: 7px;
+}
+
+footer{
+	position: absolute;
+	top: 3500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h3{
+	padding-bottom: 20px;
+
+}
